@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AdminLayout from "./components/AdminLayout";
-import Mentor from './components/tabs/Mentor'
+import Mentor from './components/mentor/Mentor'
 
 const App = () => {
   return (

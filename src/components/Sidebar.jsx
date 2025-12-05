@@ -1,13 +1,13 @@
-import { useLocation } from "react-router-dom";
+// import { useLocation } from "react-router-dom";
 import SidebarItem from "./SidebarItem";
 import AllImages from "../constants/image"; 
 
 const Sidebar = ({ isCollapsed, toggleSidebar }) => {
   const sidebarItems = [
-    { href: "/admin/mentor", label: "Mentor", icon: <AllImages.dashboard /> },
-    { href: "/admin/job", label: "Job", icon: <AllImages.userRoles /> },
-    { href: "/admin/booking", label: "Booking", icon: <AllImages.userManagement /> },
-    { href: "/admin/priority-dm", label: "Priority DM", icon: <AllImages.customers /> },
+    { href: "/admin/mentor", label: "Mentor", icon: <AllImages.mentor /> },
+    { href: "/admin/job", label: "Job", icon: <AllImages.job /> },
+    { href: "/admin/booking", label: "Booking", icon: <AllImages.booking /> },
+    { href: "/admin/priority-dm", label: "Priority DM", icon: <AllImages.priorityDM /> },
   ];
 
   return (
